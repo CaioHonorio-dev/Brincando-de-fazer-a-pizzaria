@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 
+
 html{
     scroll-behavior: smooth;
     display: flex;
     flex-wrap: wrap;
+     min-height: 100%;
+     min-width: 100%;
 }
 
 body {
@@ -33,10 +36,34 @@ header {
     font-style: normal;
 }
 
-.fotos {
+#pizzap {
     position: absolute;
     left: -340px;
-    bottom: -220px;
+    bottom: -150px;
+}
+
+.lverde {
+  top: 155px;
+  width: 883px;
+  height: 877px;
+  position: absolute;
+  left: 140px;
+}
+
+.lvermelho {
+  top: 320px;
+  width: 718px;
+  height: 769px;
+  position: absolute;
+  left: 150px;
+}
+
+.lbranco {
+  top: 500px;
+  width: 554px;
+  height: 661px;
+  position: absolute;
+  left:180px;
 }
 
 
@@ -47,11 +74,35 @@ header {
 .apresentação {
 
     position: absolute;
-    left: 1100px;
+    left: 1000px;
     background-color: rgba(0, 0, 0, 0.397);
     box-shadow: 0 0 100px;
     border: none;
-    padding: 300px 0px;
+    padding : 550px 0px;
+    margin-right: 200px;
 }
 
-#logoaps{       }
+#logoaps{
+    position: relative;
+    bottom: 500px;
+    left: 160px;
+    background-color: white;
+    border-radius: 300px;
+    border-style: solid;
+    border-color: #892b24;
+    border-width:  11px;
+}
+
+#paps{
+    position: relative;
+    bottom: 510px;
+    color: white;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+
+}
+
