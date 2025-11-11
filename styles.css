@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #171717;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    position: -ms-page;
+    border-style: solid;
+    border-color: #F59502;
+    background-color: #171717;
+    backdrop-filter: blur(1000px);
+}
+
+#logo {
+    position: absolute;
+}
+
+#home {
+    position: relative;
+    left: 140px;
+    color: #F59502;
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fotos {
+    position: absolute;
+    left: -340px;
+    bottom: -220px;
+}
+
+
+.textos {
+    color: azure;
+}
+
+.apresentação {
+
+    position: absolute;
+    left: 1100px;
+    background-color: rgba(0, 0, 0, 0.397);
+    box-shadow: 0 0 100px;
+    border: none;
+    padding: 300px 0px;
+}
+
+#logoaps{       }
